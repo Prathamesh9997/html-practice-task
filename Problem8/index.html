@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .nestedTable{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .mainTable{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .mainRow > td {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        .nestedRow > td{
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Health Chart</h1>
+    <table class = "mainTable">
+        <tr class="mainRow">
+            <td>State of Health</td>
+            <td>Fasting Value
+            <table class="nestedTable">
+                <tr class="nestedRow"><td>Minimum</td><td>Maximum</td></tr>
+            </table>
+        </td>
+            <td>After Eating</td>
+        </tr>
+        <tr class="mainRow">
+            <td>Healthy</td>
+            <td>
+                <table class="nestedTable">
+                    <tr class="nestedRow"><td>70</td><td>100</td></tr>
+                </table>
+            </td>
+            <td>Less than 140</td>
+        </tr>
+        <tr class="mainRow">
+            <td>Pre-Diebetes</td>
+            <td>
+                <table class="nestedTable">
+                    <tr class="nestedRow"><td>101</td><td>126</td></tr>
+                </table>
+            </td>
+            <td>140 to 200</td>
+        </tr>
+        <tr class="mainRow">
+            <td>Diabetes</td>
+            <td>
+                <table class="nestedTable">
+                    <tr class="nestedRow"><td>More than 126</td><td>N/A</td></tr>
+                </table>
+            </td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+</body>
+</html>

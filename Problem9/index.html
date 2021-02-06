@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Registration Form with default values</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h1>Registration Form</h1>
+	<div class="register">
+		<form name="myform" method="post" id="register" action="#" >
+            <label for="name">Name:</label></br>
+            <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="off" value="John Musk"></br>
+            <label for="email">Email:</label></br>
+            <input type="text" name="email" id="email" placeholder="Enter your email-id" autocomplete="off" value="abc123@gmail.com"></br>
+            <label for="mob">Mobile:</label></br>
+            <input type="tel" name="mob" id="mob" placeholder="Enter your mobile number" autocomplete="off" value="9876543210"></br>
+            <label for="country">Country:</label></br>
+            <select id="country" name="country">
+                    <option value="ind">IND</option>
+                    <option value="usa">USA</option>
+                    <option value="eng">ENG</option>
+                    <option value="jpn">JPN</option>
+                    <option value="aus">AUS</option>
+            </select></br><br>
+            <input class="button" type="submit" value="Register" name="submit">
+		</form>
+	</div>
+
+</body>
+</html>

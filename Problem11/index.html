@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h1>Registration Form</h1>
+	<div class="register">
+		<h2>Register Here</h2>
+		<form name="myform" method="post" id="register" action="#" >
+            <label for="name">Name:</label></br>
+            <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="off" required></br>
+            <label for="email">Email:</label></br>
+            <input type="text" name="email" id="email" placeholder="Enter your email-id" autocomplete="off" required></br>
+            <label for="mob">Mobile:</label></br>
+            <input type="tel" name="mob" id="mob" placeholder="Enter your mobile number" autocomplete="off" required></br>
+            <label for="pass">Password:</label></br>
+            <input type="password" name="pass" id="pass" placeholder="Enter password" autocomplete="off" required></br>
+            <label for="conpass">Confirm Password:</label></br>
+            <input type="password" name="conpass" id="conpass" placeholder="Confirm password" autocomplete="off" required></br>
+            <label>Gender:</label></br>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female
+            <input type="radio" id="other" name="gender" value="other"> Other </br>
+            <label>Language:</label></br>
+            <input type="checkbox" id="c" name="c" value="c" checked> C </br>
+            <input type="checkbox" id="cpp" name="cpp" value="cpp"> C++ </br>
+            <input type="checkbox" id="java" name="java" value="java"> Java </br>
+            <input type="checkbox" id="python" name="python" value="python"> Python </br>
+            <label for="country">Country:</label></br>
+            <select id="country" name="country">
+                    <option value="ind">IND</option>
+                    <option value="usa">USA</option>
+                    <option value="eng">ENG</option>
+                    <option value="jpn">JPN</option>
+                    <option value="aus">AUS</option>
+            </select></br>
+            <label for="bday">Birthday:</label></br>
+            <input type="date" name="bday" id=""></br><br>
+            <input class="button" type="submit" value="Register" name="submit">
+		</form>
+	</div>
+
+</body>
+</html>

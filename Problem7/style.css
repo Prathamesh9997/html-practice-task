@@ -1,0 +1,25 @@
+form{
+    margin: 10px 10px;
+}
+h1{
+    padding: 5px;
+    margin: 10px 20px;
+    background-color: red;
+}
+td{
+    padding: 0 12px;
+}
+input[type="text"]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+.bold{
+   font-weight: bold;
+}
+.container{
+    border: 2px solid;
+    width: 45%;
+    margin: 10% 27%;
+}
